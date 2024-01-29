@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.nav_1 {
+    text-align: center;
+    background-color: rgba(3, 21, 76, 0.9);
+    color: white;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    line-height: 0px;
+    z-index: 5;
+}
+
+header {
+    background-image: url(../mineup/picture/mainbg.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10%;
+}
+
+.bi-list {
+    color: rgb(23, 23, 140);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(20, 95, 255);
+}
+
+#up {
+    color: white;
+}
+
+.bi-globe-europe-africa {
+    font-size: 35px;
+    color: white;
+}
+
+.about-us-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 5%;
+    gap: 30px;
+}
+
+#about-us {
+    font-size: 30px;
+    color: rgb(20, 95, 255);
+}
+
+.about-us-content img {
+    border-radius: 20px;
+}
+
+.bi-caret-down-fill {
+    color: rgb(0, 0, 0);
+}
+
+#tracking {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 0;
+    background-color: #f1f1f1;
+    padding: 20px;
+    color: #1f242d;
+}
+
+form {
+    padding: 20px;
+}
+
+form input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    box-shadow: 0 0 12px black;
+}
+
+form button {
+    color: white;
+    background-color: #1f242d;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+#track-id {
+    /* color: white; */
+    text-align: center;
+}
+
+@media screen and (max-width:1000px) {
+    .about-us-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 5%;
+        gap: 30px;
+    }
+
+    #tracking {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        gap: 0;
+        background-color: #f1f1f1;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .about-us-content {
+        text-align: center;
+        display: block;
+        margin: 20px 5%;
+        gap: 30px;
+    }
+
+    .about-us-content img {
+        border-radius: 20px;
+        width: 80%;
+    }
+
+    #tracking {
+        text-align: center;
+        display: block;
+        gap: 0;
+        background-color: #f1f1f1;
+        padding: 20px;
+    }
+
+    #tracking div img {
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    form input {
+        border: none;
+        outline: none;
+        padding: 6px;
+        width: 250px;
+        height: 40px;
+        box-shadow: 0 0 12px black;
+    }
+
+    form button {
+        color: white;
+        background-color: #1f242d;
+        padding: 6px;
+        width: 90px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    header {
+        background-image: url(../mineup/picture/mainbg.jpg);
+        height: 200px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .about-us-content {
+        text-align: center;
+        display: block;
+        margin: 20px 5%;
+        gap: 30px;
+    }
+
+    .about-us-content img {
+        border-radius: 20px;
+        width: 80%;
+    }
+
+    #tracking {
+        text-align: center;
+        display: block;
+        gap: 0;
+        background-color: #f1f1f1;
+        padding: 20px;
+    }
+
+    #tracking div img {
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    form input {
+        border: none;
+        outline: none;
+        padding: 6px;
+        width: 180px;
+        height: 35px;
+        box-shadow: 0 0 12px black;
+    }
+
+    form button {
+        color: white;
+        background-color: #1f242d;
+        padding: 6px;
+        width: fit-content;
+        height: 35px;
+    }
+
+    #up {
+        color: rgb(0, 94, 255);
+        background-color: #f1f1f1;
+    }
+
+    .bi-globe-europe-africa {
+        font-size: 32px;
+        color: rgb(0, 110, 255);
+        background-color: #f1f1f1;
+    }
+
+    .bi-list {
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        cursor: pointer;
+        color: #f1f1f1;
+        background-color: rgb(25, 25, 122);
+    }
+
+    .nav_2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 100px 10%;
+    }
+
+    .nav_1 {
+        text-align: center;
+        background-color: rgba(3, 21, 76, 0.9);
+        color: white;
+        position: fixed;
+        width: 100%;
+        padding: 5px;
+        line-height: 12px;
+        z-index: 5;
+    }
+
+    #logo h1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        background-color: rgb(20, 84, 212);
+    }
+}
+
+#prove-el {
+    background-image: url(../mineup/picture/extraction\ two.jpg);
+    width: 100%;
+    height: 400px;
+}
+
+#prove {
+    background-color: blue;
+    color: #f1f1f1;
+    width: 70%;
+    position: absolute;
+    left: 70px;
+    top: 1100px;
+    box-shadow: 0 0 14px #1f242d;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 1;
+}
